@@ -2,7 +2,7 @@
 
 ## Overview
 
-This adapter allows the use of dayjs with Chart.js.
+This adapter allows the use of dayjs with Chart.js. 
 
 Requires [Chart.js](https://github.com/chartjs/Chart.js/releases) **2.8.0** or later and [dayjs](https://day.js.org/) **1.11.0** or later.
 
