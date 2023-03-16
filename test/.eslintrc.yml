@@ -9,4 +9,4 @@ globals:
   __karma__: true
   releaseChart: true
   waitForResize: true
-  dateFns: true
+  dayjs: true

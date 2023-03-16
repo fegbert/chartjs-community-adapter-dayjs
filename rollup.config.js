@@ -7,18 +7,18 @@ const {name, version, homepage, main, license} = JSON.parse(readFileSync('./pack
 const banner = `/*!
  * ${name} v${version}
  * ${homepage}
- * (c) ${new Date().getFullYear()} chartjs-adapter-date-fns Contributors
+ * (c) ${new Date().getFullYear()} chartjs-adapter-dayjs Contributors
  * Released under the ${license} license
  */`;
 
 const input = 'src/index.js';
 const external = [
   'chart.js',
-  'date-fns'
+  'dayjs'
 ];
 const globals = {
   'chart.js': 'Chart',
-  'date-fns': 'dateFns'
+  dayjs: 'dayjs'
 };
 
 export default [

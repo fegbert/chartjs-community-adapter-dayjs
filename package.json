@@ -1,16 +1,16 @@
 {
-  "name": "chartjs-adapter-date-fns",
+  "name": "chartjs-community-adapter-dayjs",
   "homepage": "https://www.chartjs.org",
-  "description": "Chart.js adapter to use date-fns for time functionalities",
-  "version": "3.0.0",
+  "description": "Chart.js adapter to use day.js for time functionalities",
+  "version": "0.0.1",
   "license": "MIT",
   "type": "module",
-  "main": "dist/chartjs-adapter-date-fns.esm.js",
-  "jsdelivr": "dist/chartjs-adapter-date-fns.bundle.min.js",
-  "unpkg": "dist/chartjs-adapter-date-fns.bundle.min.js",
+  "main": "dist/chartjs-community-adapter-dayjs.esm.js",
+  "jsdelivr": "dist/chartjs-community-adapter-dayjs.bundle.min.js",
+  "unpkg": "dist/chartjs-community-adapter-dayjs.bundle.min.js",
   "exports": {
-    "import": "./dist/chartjs-adapter-date-fns.esm.js",
-    "require": "./dist/chartjs-adapter-date-fns.min.js"
+    "import": "./dist/chartjs-community-adapter-dayjs.esm.js",
+    "require": "./dist/chartjs-community-adapter-dayjs.min.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,7 @@
   "keywords": [
     "chart.js",
     "date",
-    "date-fns",
+    "dayjs",
     "time"
   ],
   "files": [
@@ -41,6 +41,7 @@
     "concurrently": "^7.6.0",
     "cross-env": "^7.0.3",
     "date-fns": "2.19",
+    "dayjs": "^1.11.7",
     "eslint": "^8.29.0",
     "eslint-config-chartjs": "^0.3.0",
     "eslint-plugin-es": "^4.1.0",
@@ -56,6 +57,7 @@
   },
   "peerDependencies": {
     "chart.js": ">=2.8.0",
-    "date-fns": ">=2.0.0"
+    "date-fns": ">=2.0.0",
+    "dayjs": ">=1.11.7"
   }
 }
