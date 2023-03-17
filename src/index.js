@@ -8,11 +8,11 @@ dayjs.extend(isoWeekday);
 dayjs.extend(advancedFormat);
 
 const FORMATS = {
-  datetime: 'MMM D, YYYY, h:mm:ss a',
-  millisecond: 'h:mm:ss.SSS a',
-  second: 'h:mm:ss a',
-  minute: 'h:mm a',
-  hour: 'hA',
+  datetime: 'MMM D YYYY, H:mm:ss',
+  millisecond: 'H:mm:ss.SSS',
+  second: 'H:mm:ss',
+  minute: 'H:mm',
+  hour: 'H',
   day: 'MMM D',
   week: 'MMM D, YYYY',
   month: 'MMM YYYY',
