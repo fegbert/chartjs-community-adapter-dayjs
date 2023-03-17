@@ -2,7 +2,7 @@
   "name": "chartjs-community-adapter-dayjs",
   "homepage": "https://www.chartjs.org",
   "description": "Chart.js adapter to use day.js for time functionalities",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "type": "module",
   "main": "dist/chartjs-community-adapter-dayjs.esm.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chartjs/chartjs-adapter-date-fns.git"
+    "url": "https://github.com/fegbert/chartjs-community-adapter-dayjs.git"
   },
   "scripts": {
     "build": "rollup -c",
@@ -40,7 +40,6 @@
     "chartjs-test-utils": "^0.5.0",
     "concurrently": "^7.6.0",
     "cross-env": "^7.0.3",
-    "date-fns": "2.19",
     "dayjs": "^1.11.7",
     "eslint": "^8.29.0",
     "eslint-config-chartjs": "^0.3.0",
@@ -57,7 +56,6 @@
   },
   "peerDependencies": {
     "chart.js": ">=2.8.0",
-    "date-fns": ">=2.0.0",
-    "dayjs": ">=1.11.7"
+    "dayjs": ">=1.11.0"
   }
 }
