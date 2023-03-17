@@ -5,10 +5,10 @@ describe('day.js adapter', function() {
 
     const formats = adapter.formats();
     expect(formats).toEqual({
-      datetime: 'MMM D YYYY, H:mm:ss',
-      millisecond: 'H:mm:ss.SSS',
-      second: 'H:mm:ss',
-      minute: 'H:mm',
+      datetime: 'MMM D YYYY HH:mm:ss',
+      millisecond: 'HH:mm:ss.SSS',
+      second: 'HH:mm:ss',
+      minute: 'HH:mm',
       hour: 'H',
       day: 'MMM D',
       week: 'MMM D, YYYY',
@@ -27,6 +27,6 @@ describe('day.js adapter', function() {
     expect(adapter.format(timestamp, formats.minute)).toEqual('15:10');
     expect(adapter.format(timestamp, formats.second)).toEqual('15:10:27');
     expect(adapter.format(timestamp, formats.millisecond)).toEqual('15:10:27.000');
-    expect(adapter.format(timestamp, formats.datetime)).toEqual('May 28 2019, 15:10:27');
+    expect(adapter.format(timestamp, formats.datetime)).toEqual('May 28 2019 15:10:27');
   });
 });
