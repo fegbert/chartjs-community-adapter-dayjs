@@ -14,15 +14,15 @@ const banner = `/*!
 const input = 'src/index.js';
 const external = [
   'chart.js',
-  'dayjs/esm',
-  'dayjs/esm/plugin/advancedFormat',
-  'dayjs/esm/plugin/isoWeek',
+  'dayjs/esm/index.js',
+  'dayjs/esm/plugin/advancedFormat/index.js',
+  'dayjs/esm/plugin/isoWeek/index.js',
 ];
 const globals = {
   'chart.js': 'Chart',
-  'dayjs/esm': 'DayJS',
-  'dayjs/esm/plugin/isoWeek': 'DayJS Plugin - IsoWeek',
-  'dayjs/esm/plugin/advancedFormat': 'DayJS Plugin - AdvancedFormat'
+  'dayjs/esm/index.js': 'DayJS',
+  'dayjs/esm/plugin/isoWeek/index.js': 'DayJS Plugin - IsoWeek',
+  'dayjs/esm/plugin/advancedFormat/index.js': 'DayJS Plugin - AdvancedFormat'
 };
 
 export default [
