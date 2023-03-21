@@ -1,8 +1,8 @@
 import {_adapters} from 'chart.js';
 
-import dayjs from 'dayjs/esm';
-import isoWeekday from 'dayjs/esm/plugin/isoWeek';
-import advancedFormat from 'dayjs/esm/plugin/advancedFormat';
+import dayjs from 'dayjs/esm/index.js';
+import isoWeekday from 'dayjs/esm/plugin/isoWeek/index.js';
+import advancedFormat from 'dayjs/esm/plugin/advancedFormat/index.js';
 
 dayjs.extend(isoWeekday);
 dayjs.extend(advancedFormat);
